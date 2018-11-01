@@ -191,7 +191,8 @@ export default (styles) => ({
           style: textStyles,
           key: i,
         }, word)
-      })
+	  })
+	  state.withinText = false
       return words
     }
   },
